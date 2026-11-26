@@ -249,3 +249,4 @@ I also encountered a syntax error while writing the expected test results, which
 ### Time spent
 
 _Roughly how many hours?_
+Approximately 4.5 hours.

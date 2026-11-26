@@ -250,3 +250,4 @@ I also encountered a syntax error while writing the expected test results, which
 
 _Roughly how many hours?_
 Approximately 4.5 hours.
+sS

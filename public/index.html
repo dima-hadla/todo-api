@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Todo List</h1>
+      <p class="subtitle">This page is provided. It talks to the API you build in <code>src/todos.js</code>.</p>
+
+      <form id="new-todo-form" class="new-todo">
+        <label for="new-todo-title" class="visually-hidden">New todo</label>
+        <input id="new-todo-title" type="text" placeholder="What needs doing?" autocomplete="off" />
+        <button type="submit">Add</button>
+      </form>
+
+      <p id="message" class="message" role="alert" hidden></p>
+
+      <ul id="todo-list" class="todo-list"></ul>
+
+      <p id="summary" class="summary"></p>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
